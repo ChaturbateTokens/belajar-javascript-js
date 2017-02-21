@@ -72,6 +72,8 @@ Jika masih belum mengerti, mungkin bisa di review lagi apa itu tag html, dan apa
 
 ------------
 
+##003.input-js-ke-html-internal.html
+
 ```html
 <html>
   <head>
@@ -97,7 +99,7 @@ Jika masih belum mengerti, mungkin bisa di review lagi apa itu tag html, dan apa
 
 
 ```
-##003.input-js-ke-html-internal.html
+
 
 Internal Javascript adalah, cara memasukan kode javascript ke dalam html dengan menggunakan tag ```<script> </script>```
 
