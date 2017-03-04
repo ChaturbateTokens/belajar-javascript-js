@@ -108,3 +108,48 @@ Pada latihan Helloworld di file 001 adalah contoh memasukan kode java script ke 
 Point, mengerti dan memahami apa itu metode internal javascript, dan bisa membedakan internal dengan inline.
 
 ------------
+
+##004.input-js-ke-html-eksternal.html
+
+Jika kita sudah paham atau sudah pernah belajar CSS, maka tidak akan asing dengan 3 metode ini, termasuk metode eksternal ini.
+Dimana source code javascript dan source code html dipisahkan dengan dua file yang berbeda. Perhatikan contoh dibawah ini,
+
+```html
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Belajar JS</title>
+  </head>
+  <body>
+    <h1>Latihan terus</h1>
+    <script src="004.kode.js"></script>
+  </body>
+</html>
+```
+
+Kode di atas, disimpan sebagai file dengan nama 004.input-js-ke-html-eksternal.html yang berisikan code-code html to'(html doang/html saja).
+Perhatikan kode ```<script src="004.kode.js"></script>``` , berfungsi memanggil code javascript yang disimpan dengan file bernama 004.kode.js, berikut isi file nya:
+```javascript
+alert('Hi ini dari file external');
+```
+------------
+
+##005.fungsi-consolelog.html
+```html
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Belajar JS</title>
+  </head>
+  <body>
+    <h1>belajar fungsi consol.log</h1>
+    <script>
+      console.log("Tulisan ini dari fungsi console.log javascrpit");
+      console.log(999);
+
+    </script>
+
+  </body>
+</html>
+
+```
