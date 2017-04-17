@@ -153,3 +153,10 @@ alert('Hi ini dari file external');
 </html>
 
 ```
+
+Silahkan ketik code javascript di atas, lalu save dengan format .html lalu jalankan dengan browser, setelah itu klik kanan - inspect atau dengan menekan shorcut CTRL+SHIFT+I, pilih tab console, maka akan muncul tulisan yang di hasilkan dari fungsi console.log di atas.
+Jadi fungsi console.log() ini adalah untuk menampilkan sesuatu di tab console pada inspect element browser.
+
+------------
+
+Selanjutnya, penjeasan code ada pada file yang terupload di atas agar lebih mudah.
